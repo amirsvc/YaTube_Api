@@ -1,55 +1,58 @@
-# **Учебный проект API_Yatube**
+# **Учебный проект API для Yatube**
 
 Автор: Исиналинов Амир https://t.me/Amir_Isinalinov
 
-Язык программирования: Python
+Язык программирования: Python 3.7
 
 Используемые библиотеки и пакеты:
 
-- django==2.2.16
-- djangorestframework==3.12.4
+- Django==2.2.16
 - pytest==6.2.4
-- pytest-django==4.4.0
 - pytest-pythonpath==0.7.3
-- requests==2.26.0
+- pytest-django==4.4.0
+- djangorestframework==3.12.4
+- djangorestframework-simplejwt==4.7.2
 - Pillow==8.3.1
-- sorl-thumbnail==12.7.0
+- requests==2.26.0
+
 
 ## **Описание:**
 
-REST API для моlелей приложения posts блога Yatube
-
-
+REST API для моделей приложения posts блога Yatube
   
-
-### **Примеры запросов**
-
-
 
 ## **Как запустить проект:**
 
-Клонировать репозиторий и перейти в него в командной строке:
+- Клонировать репозиторий и перейти в него в командной строке:
+~~~
+git clone git@github.com:amirsvc/api_final_yatube.git
+~~~
+~~~
+cd api_final_yatube    
+~~~
 
-git clone git@github.com:amirsvc/api_yatube.git
-
-cd api_yatube
-
-Cоздать и активировать виртуальное окружение:
-
+- Cоздать и активировать виртуальное окружение:
+~~~
 python -m venv env
-
+~~~
+~~~
 source env/script/activate
-
-Установить зависимости из файла requirements.txt:
-
+~~~
+- Установить зависимости из файла requirements.txt:
+~~~
 python -m pip install --upgrade pip
-
+~~~
+~~~
 pip install -r requirements.txt
-
-Выполнить миграции:
-
+~~~
+- Выполнить миграции:
+~~~
 python manage.py migrate
-
-Запустить проект:
-
+~~~
+- Запустить проект:
+~~~
 python manage.py runserver
+~~~
+- Получить документацию по API:
+
+http://127.0.0.1:8000/redoc/
