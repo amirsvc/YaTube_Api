@@ -1,6 +1,6 @@
 # **Учебный проект API для Yatube**
 
-Автор: Исиналинов Амир https://t.me/Amir_Isinalinov
+Разработчик: Исиналинов Амир https://t.me/Amir_Isinalinov
 
 Язык программирования: Python 3.7
 
