@@ -57,7 +57,6 @@ python manage.py runserver
 
 http://127.0.0.1:8000/redoc/
 
-
 ------
 
 ## Пример заполнения файла .env
@@ -65,6 +64,5 @@ http://127.0.0.1:8000/redoc/
 SECRET_KEY =^!$edal%skvl+xn25$8eswd5ufylb!m63ia9pksjd3rd@oe%_m
 ALLOWED_HOSTS= localhost,127.0.0.1,[::1]
 ```
-
 
 Разработчик: Исиналинов Амир https://t.me/Amir_Isinalinov
