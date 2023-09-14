@@ -1,6 +1,4 @@
-# **Учебный проект API для Yatube**
-
-Автор: Исиналинов Амир https://t.me/Amir_Isinalinov
+# **REST API для аналога живого журнала YaTube**
 
 Язык программирования: Python 3.7
 
@@ -10,6 +8,7 @@
 - pytest==6.2.4
 - pytest-pythonpath==0.7.3
 - pytest-django==4.4.0
+- python-dotenv==0.21.0
 - djangorestframework==3.12.4
 - djangorestframework-simplejwt==4.7.2
 - Pillow==8.3.1
@@ -18,8 +17,9 @@
 
 ## **Описание:**
 
-REST API для моделей приложения posts блога Yatube
-  
+API сервис для [проекта Yatube](https://github.com/amirsvc/YaTube). 
+
+Реализован REST API CRUD для основных моделей проекта, для аутентификации примненяются JWT-токены.
 
 ## **Как запустить проект:**
 
@@ -56,3 +56,15 @@ python manage.py runserver
 - Получить документацию по API:
 
 http://127.0.0.1:8000/redoc/
+
+
+------
+
+## Пример заполнения файла .env
+```
+SECRET_KEY =^!$edal%skvl+xn25$8eswd5ufylb!m63ia9pksjd3rd@oe%_m
+ALLOWED_HOSTS= localhost,127.0.0.1,[::1]
+```
+
+
+Разработчик: Исиналинов Амир https://t.me/Amir_Isinalinov
